@@ -9,11 +9,20 @@ body {
 .btn-primary {
     background-color: rgb(253, 110, 10);
     border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255,255,255);
+    padding: 15px 35px;
+    cursor: pointer;
 }
+
 /* nav related styles */
 
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-title {
@@ -24,6 +33,7 @@ nav {
 
 nav > ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
