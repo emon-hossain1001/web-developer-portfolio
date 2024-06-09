@@ -60,7 +60,6 @@ nav a {
     background-image: url(./images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    margin-bottom: 130px;
  }
 
 .banner {
@@ -102,13 +101,14 @@ nav a {
 /* main section related style */
 main {
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 130px auto;
 }
 /* about section */
 
 .about {
     background-color: rgb(255, 248, 243);
     padding: 130px;
+    margin-bottom: 130px;
 }
 
 .about-description {
@@ -135,5 +135,14 @@ main {
 .about-info-container {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
     justify-content: space-around;
 }
