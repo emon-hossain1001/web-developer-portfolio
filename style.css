@@ -3,6 +3,8 @@
 /* common shared style */
 body {
     font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .text-primary {
@@ -199,6 +201,27 @@ main {
 
  footer  {
     display: flex;
+    gap:    100px;
      background-color: rgb(255, 248, 243);
      padding: 130px 200px;
+ }
+
+ .footer-column {
+    width: 50%;
+ }
+
+ .social-links a {
+    margin-right: 24px;
+ }
+
+ .contact input, textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
  }
