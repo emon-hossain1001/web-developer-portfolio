@@ -60,6 +60,7 @@ nav a {
     background-image: url(./images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin-bottom: 130px;
  }
 
 .banner {
@@ -99,14 +100,15 @@ nav a {
 }
 
 /* main section related style */
-
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section */
 
 .about {
     background-color: rgb(255, 248, 243);
     padding: 130px;
-    max-width: 1140px;
-    margin: 130px auto;
 }
 
 .about-description {
@@ -114,4 +116,24 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
+}
+
+.info-title {
+    color: rgb(117,117,117);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.info-description {
+    color: rgb(71,71,71);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
