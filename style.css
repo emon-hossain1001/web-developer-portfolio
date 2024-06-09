@@ -168,3 +168,29 @@ main {
     display: flex;
     gap: 24px;
  }
+
+ .resume-item-title {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+ }
+
+ .resume-item-education{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
+ }
+
+ .resume-item-description{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+ }
+
+ .download-cv {
+    text-align: center;
+    margin-top: 40px;
+ }
